@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#BBDCF2">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotak3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/foto3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/panah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:text="Basis Data"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="403dp"
+        android:layout_height="491dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Materi basis data mencakup konsep, teknik, dan alat yang digunakan untuk mengelola dan memanipulasi data dalam jumlah besar dengan cara yang terstruktur. Di bawah ini adalah komponen penting yang sering diajarkan dalam materi basis data:
+1. Pengertian Basis Data (Database)
+Basis data adalah kumpulan data yang terorganisir secara sistematis dan dapat diakses, dikelola, serta diperbarui. Data dalam basis data biasanya disimpan dalam bentuk tabel yang saling berhubungan.
+2. Tipe-Tipe Basis Data
+Ada beberapa tipe basis data berdasarkan model datanya:
+Basis Data Relasional: Menggunakan tabel (relasi) untuk menyimpan data. Setiap tabel terdiri dari baris (records) dan kolom (fields). Contoh: MySQL, PostgreSQL, Oracle.
+Basis Data NoSQL: Basis data non-relasional yang lebih fleksibel dalam penyimpanan data, cocok untuk data yang tidak terstruktur atau semi-terstruktur. Contoh: MongoDB, Cassandra.
+Basis Data Hierarkis: Menyimpan data dalam bentuk struktur pohon. Setiap data memiliki hubungan hirarki. Contoh: IBM Information Management System (IMS).
+Basis Data Berorientasi Objek: Menggunakan konsep objek dalam pemrograman untuk menyimpan data. Contoh: db4o, ObjectDB.
+3. DBMS (Database Management System)
+DBMS adalah perangkat lunak yang digunakan untuk membuat, mengelola, dan memanipulasi basis data. DBMS menyediakan antarmuka untuk melakukan operasi pada basis data, seperti penyimpanan, pembaruan, penghapusan, dan pengambilan data.
+Contoh DBMS: MySQL, PostgreSQL, SQL Server, Oracle, SQLite.
+4. Komponen Basis Data
+Tabel: Struktur utama dalam basis data relasional yang terdiri dari baris dan kolom.
+Baris (Record): Satu entri atau data dalam tabel. Setiap baris berisi informasi lengkap untuk satu item.
+Kolom (Field/Attribute): Bagian dari tabel yang menyimpan tipe data tertentu, seperti nama, usia, alamat.
+Primary Key: Kunci unik yang digunakan untuk mengidentifikasi setiap baris dalam tabel.
+Foreign Key: Kunci yang digunakan untuk menghubungkan satu tabel dengan tabel lainnya.
+Indeks (Index): Struktur data yang mempercepat proses pencarian data di dalam tabel.
+5. Model Basis Data Relasional
+Dalam model basis data relasional, data diorganisir dalam bentuk tabel yang saling berhubungan. SQL (Structured Query Language) digunakan untuk berinteraksi dengan basis data relasional.
+."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hijau"
+        app:itemIconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bottom_navigation_menu"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

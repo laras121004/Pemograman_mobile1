@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#BBDCF2"
+    tools:ignore="ExtraText"><![CDATA[
+
+
+    />
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kotak3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/foto4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:text="Jaringan Komputer"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="403dp"
+        android:layout_height="491dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Materi tentang jaringan komputer mencakup berbagai konsep dan teknologi yang digunakan untuk menghubungkan komputer dan perangkat lainnya agar bisa berkomunikasi dan berbagi sumber daya. Berikut adalah konsep dasar yang perlu dipahami:
+1. Pengertian Jaringan Komputer
+Jaringan komputer adalah kumpulan dua atau lebih komputer atau perangkat lainnya yang terhubung untuk saling berbagi sumber daya (seperti data, printer, internet) dan berkomunikasi satu sama lain.
+2. Jenis-Jenis Jaringan Komputer
+LAN (Local Area Network): Jaringan yang menghubungkan komputer-komputer dalam area lokal yang terbatas seperti rumah, kantor, atau sekolah. Kecepatan tinggi dan jarak pendek.
+WAN (Wide Area Network): Jaringan yang menghubungkan beberapa LAN melalui jarak yang jauh, sering kali menggunakan teknologi telekomunikasi. Contoh: internet.
+MAN (Metropolitan Area Network): Jaringan yang lebih besar dari LAN tetapi lebih kecil dari WAN, mencakup wilayah kota atau kampus.
+PAN (Personal Area Network): Jaringan yang mencakup area sangat kecil, biasanya dalam radius beberapa meter, seperti jaringan Bluetooth antara ponsel dan komputer.
+3. Topologi Jaringan
+Topologi jaringan merujuk pada bagaimana komputer dan perangkat lain terhubung satu sama lain. Ada beberapa jenis topologi, yaitu:
+Topologi Bus: Semua perangkat terhubung ke satu kabel utama. Jika kabel utama rusak, seluruh jaringan terganggu.
+Topologi Star: Setiap perangkat terhubung ke sebuah perangkat pusat, seperti switch atau hub.
+Topologi Ring: Perangkat terhubung dalam bentuk lingkaran, data dikirim dalam satu arah.
+Topologi Mesh: Setiap perangkat terhubung ke banyak perangkat lain. Sangat andal, tetapi mahal.
+Topologi Tree: Gabungan dari topologi star dan bus, sering digunakan dalam jaringan skala besar.
+4. Perangkat Jaringan
+Router: Menghubungkan dua atau lebih jaringan dan meneruskan paket data antar jaringan.
+Switch: Menghubungkan beberapa perangkat dalam satu jaringan lokal (LAN) dan meneruskan data ke perangkat tujuan secara langsung.
+Hub: Sama seperti switch, tetapi mengirimkan data ke semua perangkat dalam jaringan, bukan hanya ke tujuan spesifik.
+Modem: Mengubah sinyal digital menjadi sinyal analog dan sebaliknya, digunakan untuk menghubungkan jaringan ke internet melalui jalur telepon.
+Access Point (AP): Menghubungkan perangkat nirkabel ke jaringan kabel.
+5. Protokol Jaringan
+Protokol jaringan adalah aturan atau standar yang mengatur komunikasi antara perangkat di jaringan. Protokol penting antara lain:
+TCP/IP (Transmission Control Protocol/Internet Protocol): Protokol utama yang mengatur komunikasi di internet. TCP memastikan data dikirim dengan benar, sedangkan IP bertugas mengirim data ke alamat tujuan.
+HTTP/HTTPS (Hypertext Transfer Protocol/Secure): Protokol yang digunakan untuk mentransfer data di web. HTTPS menggunakan enkripsi untuk keamanan.
+FTP (File Transfer Protocol): Digunakan untuk mentransfer file antara komputer di jaringan.
+SMTP (Simple Mail Transfer Protocol): Protokol yang digunakan untuk mengirim email.
+DNS (Domain Name System): Protokol yang menerjemahkan nama domain (seperti www.example.com) menjadi alamat IP.
+DHCP (Dynamic Host Configuration Protocol): Protokol yang secara otomatis memberikan alamat IP kepada perangkat di jaringan.
+6. Model OSI (Open Systems Interconnection)
+Model OSI adalah model referensi standar untuk menjelaskan bagaimana protokol jaringan berfungsi dan berinteraksi di berbagai lapisan. Model ini terdiri dari 7 lapisan:
+Lapisan 1: Physical Layer: Mengatur koneksi fisik antar perangkat, seperti kabel, frekuensi radio, dan konektor.
+Lapisan 2: Data Link Layer: Bertanggung jawab untuk pengiriman data di jaringan lokal, menangani alamat MAC dan kesalahan fisik.
+Lapisan 3: Network Layer: Mengatur pengalamatan logis dan routing data antar jaringan (protokol IP berada di sini).
+Lapisan 4: Transport Layer: Mengatur pengiriman data yang andal (protokol TCP bekerja di sini).
+Lapisan 5: Session Layer: Mengelola sesi komunikasi antara dua perangkat.
+Lapisan 6: Presentation Layer: Mengelola format data dan enkripsi/dekripsi.
+Lapisan 7: Application Layer: Mengatur interaksi dengan aplikasi pengguna, seperti email dan web browser.
+7. Alamat IP
+Alamat IP adalah identifikasi numerik unik yang diberikan ke setiap perangkat di jaringan untuk mengidentifikasinya.
+IPv4: Menggunakan alamat 32-bit, seperti 192.168.1.1. Namun, karena keterbatasan jumlah alamat yang dapat diberikan, IPv4 semakin terbatas.
+IPv6: Menggunakan alamat 128-bit, menawarkan lebih banyak kombinasi alamat, seperti 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+8. Subnetting
+Subnetting adalah teknik membagi jaringan besar menjadi beberapa subnet yang lebih kecil, membantu mengelola alamat IP lebih efisien dan meningkatkan keamanan.
+9. Keamanan Jaringan
+Keamanan jaringan sangat penting untuk melindungi data dan perangkat dari serangan dan ancaman eksternal.
+Firewall: Perangkat atau perangkat lunak yang memfilter lalu lintas jaringan berdasarkan aturan keamanan.
+VPN (Virtual Private Network): Mengamankan koneksi internet dengan mengenkripsi data dan menyembunyikan alamat IP pengguna.
+WPA/WPA2 (Wi-Fi Protected Access): Standar keamanan untuk jaringan nirkabel, menggunakan enkripsi untuk melindungi data.
+Intrusion Detection System (IDS): Sistem yang mendeteksi dan memberi tahu administrator jika ada ancaman atau pelanggaran keamanan.
+Antivirus dan Anti-malware: Perangkat lunak yang melindungi perangkat dari virus, malware, dan program berbahaya lainnya.
+10. Jaringan Nirkabel (Wireless Network)
+Wi-Fi: Jaringan nirkabel yang menggunakan gelombang radio untuk menghubungkan perangkat tanpa kabel.
+Bluetooth: Teknologi jaringan nirkabel jarak pendek untuk menghubungkan perangkat seperti ponsel dan laptop.
+NFC (Near Field Communication): Teknologi komunikasi nirkabel jarak dekat, digunakan untuk pembayaran digital atau transfer data.
+11. Model Client-Server dan Peer-to-Peer
+Client-Server: Model di mana satu perangkat (server) menyediakan layanan atau data, dan perangkat lain (client) meminta layanan tersebut. Server biasanya merupakan komputer yang kuat yang melayani banyak client.
+Peer-to-Peer (P2P): Semua perangkat dalam jaringan memiliki status yang sama dan dapat bertindak sebagai client atau server. Contoh aplikasi P2P adalah torrent.
+12. Bandwidth dan Latency
+Bandwidth: Kapasitas maksimal jaringan untuk mentransfer data dalam periode waktu tertentu, biasanya diukur dalam Mbps atau Gbps.
+Latency: Waktu yang dibutuhkan oleh data untuk berpindah dari satu titik ke titik lain dalam jaringan.
+13. Cloud Computing
+Cloud Computing: Mengacu pada penyediaan layanan komputasi (seperti server, penyimpanan, dan aplikasi) melalui internet. Pengguna tidak perlu membeli perangkat keras sendiri, melainkan menyewa sumber daya di "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hijau"
+        app:itemIconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_menu"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
