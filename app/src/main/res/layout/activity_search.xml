@@ -15,10 +15,10 @@
         android:src="@drawable/panah2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013"
+        app:layout_constraintVertical_bias="0.037"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -31,108 +31,25 @@
         app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/panah2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.019"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="25dp"
-        android:layout_height="22dp"
-        android:src="@drawable/pngaturn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.878"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047"
+        app:layout_constraintVertical_bias="0.063"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="185dp"
-        android:layout_height="30dp"
+        android:layout_width="277dp"
+        android:layout_height="41dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:text="material about learning"
         android:textColor="#1E1E1E"
-        android:textSize="17dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ktk"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104"
-        tools:ignore="MissingConstraints" />
-
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cari"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="185dp"
-        android:layout_height="30dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:text="Dasar Pemograman"
-        android:textColor="#1E1E1E"
-        android:textSize="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.455"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/group3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189"
+        app:layout_constraintVertical_bias="0.063"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -145,7 +62,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView3"
-        app:layout_constraintVertical_bias="0.208"
+        app:layout_constraintVertical_bias="0.092"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -157,8 +74,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4"
-        app:layout_constraintVertical_bias="0.579"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -184,7 +101,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468"
+        app:layout_constraintVertical_bias="0.412"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -214,7 +131,7 @@
         app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.262"
+        app:layout_constraintVertical_bias="0.182"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -228,21 +145,21 @@
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297"
+        app:layout_constraintVertical_bias="0.207"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageviw20"
-        android:layout_width="110.97dp"
-        android:layout_height="99.38dp"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
         android:layout_marginTop="4dp"
         android:src="@drawable/ft1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282"
+        app:layout_constraintVertical_bias="0.198"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -252,10 +169,10 @@
         android:src="@drawable/love"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345"
+        app:layout_constraintVertical_bias="0.268"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -265,10 +182,10 @@
         android:src="@drawable/bintang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintVertical_bias="0.27"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -282,7 +199,7 @@
         app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418"
+        app:layout_constraintVertical_bias="0.38"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -296,7 +213,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445"
+        app:layout_constraintVertical_bias="0.407"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -306,10 +223,10 @@
         android:src="@drawable/ft2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.458"
+        app:layout_constraintVertical_bias="0.407"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -320,10 +237,10 @@
         android:src="@drawable/bintang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.495"
+        app:layout_constraintVertical_bias="0.458"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -333,10 +250,10 @@
         android:src="@drawable/love"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.461"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -346,10 +263,10 @@
         android:src="@drawable/ft3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641"
+        app:layout_constraintVertical_bias="0.613"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -362,7 +279,7 @@
         app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667"
+        app:layout_constraintVertical_bias="0.65"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -372,10 +289,10 @@
         android:src="@drawable/bintang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintVertical_bias="0.65"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -425,10 +342,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58"
+        app:layout_constraintVertical_bias="0.565"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -453,10 +370,10 @@
         android:textColor="#8C8C8C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.607"
+        app:layout_constraintVertical_bias="0.592"
         tools:ignore="MissingConstraints" />
 
     <TextView
