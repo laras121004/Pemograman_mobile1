@@ -16,7 +16,5 @@
 
 # UI APP
 
-![UI APP](https://github.com/user-attachments/assets/86ae9ab1-898d-43de-a8de-219f629964a0)
-
-
+![Ui memotek](https://github.com/user-attachments/assets/b1a3856a-6f87-4ed4-870f-011616e0f907)
 
