@@ -6,13 +6,14 @@
 | Nim | 312310627 |
 | Mata Kuliah | Pemograman mobile 1 |
 
+# *Laras Sakti_312310627_Memotek*
 # StoryBoard
 
-![Story Board](https://github.com/user-attachments/assets/154fb47b-19e2-4f73-a79d-1f0ef1b5f405)
+![Story Board memotek](https://github.com/user-attachments/assets/051a5b17-7586-4fd3-adcb-96409fac8f11)
 
 # MockUp
 
-![Mock up](https://github.com/user-attachments/assets/378fe82d-7511-4cd3-a62b-348a387380b0)
+![mockup memotek](https://github.com/user-attachments/assets/5f0d1369-6908-4ef8-8a3d-7f05a1b46448)
 
 # UI APP
 
